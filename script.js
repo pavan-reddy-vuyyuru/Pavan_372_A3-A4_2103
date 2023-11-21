@@ -32,4 +32,5 @@ function convertCurrency() {
         console.log(result)
         amountOutput.value = result;
     }
+    //for final commit
 }
