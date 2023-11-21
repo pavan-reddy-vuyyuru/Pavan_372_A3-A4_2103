@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    display: block;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #fff;
+}
+
+.main-banner {
+    background-color: cornflowerblue;
+    padding: 20px 10px;
+}
+
+h1,
+h4 {
+    color: #fff;
+}
+
+.convert-button {
+    background-color: cornflowerblue;
+    padding: 20px;
+    color: #fff;
+    border-radius: 50px;
+    display: block;
+    margin-top: 10px;
+    float: right;
+    font-weight: 600;
+}
+
+.convert-button:hover {
+    cursor: pointer;
+}
+
+input {
+    width: 25%;
+    padding: 10px;
+    margin-top: 5px;
+    display: inline;
+}
+
+.amount-label {
+    display: block;
+    padding: 20px 2px 10px 2px;
+}
+
+select {
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: #f4f4f4;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.slection-area {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-area {
+    width: 90%;
+}
+
+.second-area {
+    width: 90%;
+}
+
+.button-area {
+    width: 35%;
+    margin: 10px auto;
+    padding: 10px 10px;
+}
+
+#resultInvalid {
+    text-align: center;
+    padding: 30px;
+    color: red;
+}
